@@ -1,0 +1,42 @@
+
+/* CenteredDiv.css */
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  /* height: 100vh;  */
+  /* Full height of the viewport */
+}
+.centered-container-searchparameter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  /* height: 100vh;  */
+  /* Full height of the viewport */
+}
+
+.left-container {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  /* height: 100vh;  */
+  /* Full height of the viewport */
+}
+.centered-container button {
+  padding: 10px 20px; /* Adjust the padding to increase button size */
+  font-size: 16px; /* Adjust the font size to increase button size */
+  border-radius: 10%;
+  background-color: #007bff; /* Set background color */
+  color: #fff; /* Set text color */
+  border: none; /* Remove border */
+  cursor: pointer; /* Change cursor to pointer */
+  transition: background-color 0.3s; /* Add transition effect */
+  font-weight: bold;
+}
+
+.centered-container button:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}

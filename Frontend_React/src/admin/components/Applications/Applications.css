@@ -1,0 +1,64 @@
+.applications-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+}
+
+.loading, .error {
+  text-align: center;
+  font-size: 18px;
+  color: #ff0000;
+}
+
+.applications-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.applications-table thead {
+  background-color: #f2f2f2;
+}
+
+.applications-table th, .applications-table td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.applications-table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.applications-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.applications-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.applications-table td {
+  color: #333;
+}
+
+.mybutton {
+  padding: 8px 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.mybutton:hover {
+  background-color: #45a049;
+}

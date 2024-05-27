@@ -1,0 +1,73 @@
+.ResumeForm {
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange items vertically */
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #6a6262;
+    border-radius: 15px;
+    transition: min-height 0.2s ease-in-out; /* Smooth transition for height changes */
+    background-color: #87b4e5;
+  }
+  
+  .ResumeForm h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .ResumeForm form {
+    flex: 1; /* Allow form to grow and occupy remaining space */
+    display: flex; /* Use flexbox for form elements */
+    flex-direction: column; /* Arrange form elements vertically */
+  }
+  
+  .ResumeForm form div {
+    margin-bottom: 15px;
+  }
+  
+  .ResumeForm label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .ResumeForm textarea,
+  .ResumeForm input[type="file"] {
+    width: 95%;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    resize: none;
+    background-color: white;
+    transition: height 0.2s ease-in-out; /* Smooth transition for height changes */
+  }
+  
+  .ResumeForm textarea {
+    height: 100px;
+  }
+  
+  .ResumeForm textarea:focus {
+    border-color: #007bff;
+  }
+  
+  .ResumeForm button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .ResumeForm button:hover {
+    background-color: #0056b3;
+  }
+  
+  .ResumeForm span {
+    color: red;
+    margin-left: 5px;
+  }
+  

@@ -1,0 +1,79 @@
+.login-component {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 90vh;
+    padding-right: 10%;
+    background-attachment: fixed;
+    background: url('../../../../public/images/log.webp') no-repeat center center fixed; /* Replace with your actual image URL */
+    background-size: 100% 100%;
+}
+
+  
+  .login-image {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  fieldset {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center; /* Center-align text content */
+  }
+  
+  legend {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    margin-bottom: 10px;
+    text-align: left; /* Left-align labels */
+  }
+  
+  label {
+    display: block;
+    text-align: left; /* Left-align labels */
+  }
+  /* Ensure padding doesn't affect width */
+  /* input[type="text"],
+  input[type="password"],
+  input[type="button"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+  }
+  
+  input[type="button"] {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  input[type="button"]:hover {
+    background-color: #0056b3;
+  } */
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  

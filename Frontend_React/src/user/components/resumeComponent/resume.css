@@ -1,0 +1,66 @@
+/* ResumeTable.css */
+table {
+    border: 1px solid #ddd;
+    width: 90%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-size: 16px;
+    text-align: left;
+    border-radius: 10px; /* More pronounced rounded borders */
+    overflow: hidden; /* Ensure rounded borders */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Deeper shadow for depth */
+}
+
+/* Table Header Styles */
+thead {
+    background-color: #009688; /* Updated header color with teal shade */
+    color: white;
+}
+
+thead th {
+    padding: 15px; /* Increased padding for spacious look */
+    white-space: nowrap; /* Prevent line breaks */
+}
+
+/* Table Body Styles */
+tbody tr {
+    background-color: #ffffff; /* Pure white body color for cleanliness */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f7f7f7; /* Soft grey alternate row color for subtlety */
+}
+
+tbody td {
+    padding: 15px; /* Increased padding for spacious look */
+    white-space: nowrap; /* Prevent line breaks */
+}
+
+/* Hover Effect */
+tbody tr:hover {
+    background-color: #e0f7fa; /* Soft blue hover effect that's easy on the eyes*/
+}
+
+.centered-container-resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh;  */
+    /* Full height of the viewport */
+  }
+
+  .centered-container-resume button {
+    padding: 10px 20px; /* Adjust the padding to increase button size */
+    font-size: 16px; /* Adjust the font size to increase button size */
+    border-radius: 10%;
+    background-color: #007bff; /* Set background color */
+    color: #fff; /* Set text color */
+    border: none; /* Remove border */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s; /* Add transition effect */
+    font-weight: bold;
+}
+
+.centered-container-resume button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}

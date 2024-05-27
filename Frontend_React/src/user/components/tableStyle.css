@@ -1,0 +1,95 @@
+.search-table {
+    border: 1px solid #ddd;
+    width: 90%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-size: 16px;
+    text-align: left;
+    border-radius: 10px;
+    /* More pronounced rounded borders */
+    overflow: hidden;
+    /* Ensure rounded borders */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Deeper shadow for depth */
+}
+
+/* Table Header Styles */
+.search-table thead {
+    background-color: #009688;
+    /* Updated header color with teal shade */
+    color: white;
+}
+
+.search-table thead th {
+    padding: 15px;
+    /* Increased padding for spacious look */
+}
+
+/* Table Body Styles */
+.search-table tbody tr {
+    background-color: #ffffff;
+    /* Pure white body color for cleanliness */
+}
+
+.search-table tbody tr:nth-child(even) {
+    background-color: #f7f7f7;
+    /* Soft grey alternate row color for subtlety */
+}
+
+.search-table tbody td {
+    padding: 15px;
+    /* Increased padding for spacious look */
+}
+
+/* Hover Effect */
+.search-table tbody tr:hover {
+    background-color: #e0f7fa;
+    /* Soft blue hover effect that's easy on the eyes*/
+}
+
+/* Rounded Borders for individual cells not needed as border is removed */
+
+.search-table th,
+.search-table td {
+    border-bottom: 1 px solid #ddd;
+    /* Light bottom border only to reduce clutter*/
+}
+
+.search-table button {
+    padding: 10px 20px;
+    /* Adjust the padding to increase button size */
+    font-size: 16px;
+    /* Adjust the font size to increase button size */
+    border-radius: 10%;
+    background-color: #3e89d9;
+    /* Set background color */
+    color: #fff;
+    /* Set text color */
+    border: none;
+    /* Remove border */
+    cursor: pointer;
+    /* Change cursor to pointer */
+    transition: background-color 0.3s;
+    /* Add transition effect */
+    font-weight: bold;
+}
+
+.search-parameter-button button {
+    
+    padding: 10px 20px;
+    /* Adjust the padding to increase button size */
+    font-size: 16px;
+    /* Adjust the font size to increase button size */
+    border-radius: 10%;
+    background-color: #007bff;
+    /* Set background color */
+    color: #fff;
+    /* Set text color */
+    border: none;
+    /* Remove border */
+    cursor: pointer;
+    /* Change cursor to pointer */
+    transition: background-color 0.3s;
+    /* Add transition effect */
+    font-weight: bold;
+}

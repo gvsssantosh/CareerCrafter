@@ -1,0 +1,20 @@
+.nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #af5555;
+    margin: 10px 0;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.nav a:hover {
+    background-color: #6b4040;
+}
+
+

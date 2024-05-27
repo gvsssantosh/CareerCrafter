@@ -1,0 +1,77 @@
+
+
+.login-component-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('../../public/images/949635_OE9CES0.jpg') no-repeat center center fixed; /* Replace with your actual image URL */
+    background-size: cover;
+}
+
+.login-component-user .fieldset-class {
+    width: 350px;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9); /* White background for clarity */
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1); /* Softer shadow for a lighter feel */
+    backdrop-filter: blur(10px);
+}
+
+.login-component-user h4 {
+    margin-bottom: 1.5rem;
+    color: #f0ad4e; /* Warm color to match the light bulb */
+    font-size: 1.5rem;
+}
+
+.login-component-user label {
+    display: block;
+    margin-bottom: .5rem;
+    color: #5bc0de; /* Cool color to match the gears and magnifying glass */
+}
+
+.login-component-user input[type="text"],
+.login-component-user input[type="password"] {
+    width: calc(100% - 2rem);
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #5bc0de; /* Border color to match the label */
+    border-radius: 4px;
+}
+
+.login-component-user input[type="button"] {
+    width: calc(100% - 2rem);
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #5cb85c; /* Green to match the brain outline */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-component-user input[type="button"]:hover {
+    background-color: #4cae4c; /* Darker green for hover effect */
+}
+
+.login-component-user p {
+    color: #d9534f; /* Red to bring attention to messages */
+}
+
+.login-component-user .link {
+    display: inline-block;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: #337ab7; /* Blue to match the overall creative theme */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.login-component-user .link:hover,
+.login-component-user .link:focus,
+.login-component-user .link:active {
+    color: #286090; /* Deeper blue for interaction states */
+}

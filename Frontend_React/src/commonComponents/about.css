@@ -1,0 +1,123 @@
+.about-us {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+  color: #333;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  color: #666;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li:before {
+  content: '•';
+  margin-right: 5px;
+  color: #333;
+}
+
+.hero {
+  background-color: #aa93e4;
+  padding: 40px;
+  text-align: center;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.our-story, .what-we-offer, .our-values, .our-team, .join-us, .contact {
+  margin-top: 40px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.social-media {
+  margin-top: 20px;
+}
+
+.social-media ul {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media ul li {
+  margin: 0 10px;
+}
+
+.social-media ul li a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-media ul li a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Add a general hover effect for all buttons and links */
+.about a, button {
+  transition: transform 0.3s ease;
+}
+
+a:hover, button:hover {
+  transform: translateY(-3px);
+}
+
+/* Add a hover effect to list items */
+ul li {
+  position: relative;
+  padding-left: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+ul li:before {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+ul li:hover {
+  padding-left: 25px;
+  color: #555;
+}
+
+.home-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #217be2;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-size: 18px;
+}
+
+.home-link:hover {
+  background-color: #43cde2;
+  transform: translateY(-3px);
+  color: black;
+}

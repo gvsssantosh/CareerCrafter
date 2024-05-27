@@ -1,0 +1,89 @@
+const userService = require('./src/services/user_actions');
+
+const timestamp= require('./src/utils/timestamp');
+// console.log(timestamp.getCurrentTimestamp());
+
+async function main() {
+    //console.log("----------creating user-----------------");
+    //     let userObj= {
+    //         password: "abcd@123",
+    //         first_name:"nag",
+    //         last_name:"m",
+    //         email:"mnag@gmail.com",
+    //         phone_number:"9887651221"
+    //     }
+    //    let results = await userService.createUser(userObj);
+    //    for(let item of results){
+    //     console.log("Your user_id is "+item.user_id);
+    //    }
+    // console.log("----------insert into resume-----------------");
+    // let resumeObj = {
+    //     user_id: 102,
+    //     description: "I am CSE graduate",
+    //     projects: "amazon clone",
+    //     Skills: "Python, AWS",
+    //     Certifications: "C#",
+    //     internships: "amazon",
+    //     work_experience: "2 months as GET at amazon",
+    //     resume_file_link: "insert file link"
+    // };
+    // let resumeObjArr = await userService.InsertIntoResume(resumeObj);
+    // for (let item of resumeObjArr) {
+    //     console.log(`user_id:${item.user_id}, resume_id:${item.resume_id}`);
+    // }
+
+    // console.log("---------update resume------------------");
+    // let resumeObj = {
+    //     user_id: 102,
+    //     description: "I am CSE graduate",
+    //     projects: "amazon clone",
+    //     Skills: "Python, AWS",
+    //     Certifications: ".Net",
+    //     internships: "amazon",
+    //     work_experience: "2 months as GET at amazon",
+    //     last_updated: timestamp.getCurrentTimestamp(),
+    //     resume_file_link: "insert file link"
+    // };
+    // let result = await userService.updateResume(resumeObj);
+    // console.log(result);
+
+    // console.log("---------search by id------------------");
+
+    // let jobObj = await userService.searchJobById(1001);
+    // console.log(`${jobObj.job_id}: ${jobObj.job_title} - ${jobObj.description}`);
+
+    // console.log("---------search by location------------------");
+
+    // let loc = "hyd";
+    // let jobObjArr = await userService.searchJobByLocation(loc);
+    // for (let item of jobObjArr) {
+    //     console.log(`${item.job_id}: ${item.job_title} - ${item.description}`);
+
+    // }
+    // console.log("-------------search by company--------------");
+    // let company = "CGI";
+    // let jobObjArr2 = await userService.searchJobByCompany(company);
+    // for (let item of jobObjArr) {
+    //     console.log(`${item.job_id}: ${item.job_title} - ${item.description}, ${item.job_industry} `);
+
+    // }
+
+
+    // console.log("---------------------------");
+    // let applyJobObj={
+    //     job_id:1001,
+    //     user_id:101,
+    //     admin_id:100
+    // }
+    // await userService.applyToJob(applyJobObj);
+    // console.log("applied to job successfully");
+
+
+    let deleteObj={user_id:102, job_id:1004};
+    let msg=await userService.deleteApplication(deleteObj);
+    console.log(msg);
+
+}
+
+main();
+

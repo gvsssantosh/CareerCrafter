@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.containerr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #b74c4c;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(157, 54, 54, 0.1);
+    margin: 20px;
+}
+
+.form-wrapper {
+    width: 100%;
+    max-width: 800px; /* Increased the max-width to make the form wider */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: calc(100% - 20px); /* Ensure inputs and textareas take full width of the parent */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+
+    /* width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px; */
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.message {
+    text-align: center;
+    margin-top: 20px;
+    color: green;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    align-self: center;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #2e7fc7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    align-self: center;
+}
+
+.button:hover {
+    background-color: #1a73b8;
+}

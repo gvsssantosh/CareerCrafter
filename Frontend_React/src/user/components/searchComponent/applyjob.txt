@@ -1,0 +1,91 @@
+return (<>
+        <div className="job-details">
+            <h1>Job Details</h1>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><label>Job ID:</label></td>
+                        <td><textarea readOnly value={jobObj.job_id} /></td>
+                    </tr>
+                    <tr>
+                        <td><label>Title:</label></td>
+                        <td><textarea readOnly value={jobObj.job_title} /></td>
+                    </tr>
+                    <tr>
+                        <td><label>Description:</label></td>
+                        <td><textarea readOnly value={jobObj.description} /></td>
+                    </tr>
+                    <tr>
+                        <td><label>Industry:</label></td>
+                        <td><textarea readOnly value={jobObj.job_industry} /></td>
+                    </tr>
+                    <tr>
+                        <td><label>Qualifications:</label></td>
+                        <td><textarea readOnly value={jobObj.qualifications} /></td>
+                    </tr>
+                    <tr>
+                        <td><label>Location:</label></td>
+                        <td><textarea readOnly value={jobObj.location} /></td>
+                    </tr>
+                    <tr>
+                        <td><label>Minimum Salary:</label></td>
+                        <td><textarea readOnly value={jobObj.min_salary} /></td>
+                    </tr>
+                    <tr>
+                        <td><label>Maximum Salary:</label></td>
+                        <td><textarea readOnly value={jobObj.max_salary} /></td>
+                    </tr>
+                    <tr>
+                        <td><label>Company:</label></td>
+                        <td><textarea readOnly value={jobObj.company_name} /></td>
+                    </tr>
+                    <tr>
+                        <td><label>Job Status:</label></td>
+                        <td><textarea readOnly value={jobObj.job_status} /></td>
+                    </tr>
+                    <tr>
+                        <td><label>Posted on:</label></td>
+                        <td><textarea readOnly value={new Date(jobObj.created_on).toLocaleDateString()} /></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div className='centered-container'>
+                <button
+                    onClick={() => applyJob_buttonClick(jobObj.job_id)}
+                    disabled={jobObj.job_status !== 'open'}
+                >
+                    Apply Job
+                </button>
+                <button onClick={() => navigate(-1)}>Back</button>
+            </div>
+        </div>
+
+    </>);
+
+
+
+//css
+.job-details {
+    max-width: 500px;
+    margin: 10;
+    /* margin: 0 auto; */
+  }
+  
+  .job-detail {
+    margin-bottom: 20px;
+  }
+  
+  .job-detail label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .text-area {
+    width: 100%;
+    height: 100px; /* Adjust height as needed */
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  

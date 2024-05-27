@@ -1,0 +1,38 @@
+/* Custom styles for the Navbar */
+.custom-navbar {
+    background-color: #026a9a;
+    /* Change the background color */
+}
+
+.custom-navbar .nav-link {
+    font-size: 1.25rem;
+    /* Increase the font size */
+    color: white;
+    /* Ensure the text color is readable */
+    margin-right: 60px;
+    transition: background-color 0.3s, font-weight 0.3s;
+    /* Smooth transition for hover effect */
+}
+
+.custom-navbar .nav-link:hover {
+    color: white;
+    /* Optional: Change the color on hover for better UX */
+    background-color: rgb(120, 91, 135);
+    /* Add background color on hover */
+    font-weight: bold;
+    /* Increase font weight on hover */
+    border-radius: 10px;
+}
+
+/* Center the links in the Navbar */
+.custom-navbar .container {
+    display: flex;
+    justify-content: center;
+}
+
+.custom-navbar .custom-nav {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}

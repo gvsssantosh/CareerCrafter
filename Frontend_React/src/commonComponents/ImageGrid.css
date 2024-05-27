@@ -1,0 +1,26 @@
+/* ImageGrid.css */
+
+.image-box {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .image-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    border: none; /* Remove card border */
+    margin: 10px; /* Add margin to space out the cards */
+  }
+  
+  .card-img-top {
+    width: 100px; /* Set a smaller fixed width for images */
+    height: 100px; /* Set a smaller fixed height for images */
+    object-fit: contain; /* Ensure the image fits within the card */
+    border-radius: 10px; /* Rounded corners for images */
+  }
+  

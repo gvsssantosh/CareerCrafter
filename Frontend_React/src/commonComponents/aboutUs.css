@@ -1,0 +1,75 @@
+.about-us {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 15px;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  ul li:before {
+    content: '•';
+    margin-right: 5px;
+    color: #333;
+  }
+  
+  .hero {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .our-story ul,
+  .what-we-offer ul,
+  .our-values ul,
+  .social-media ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .our-story ul li:before,
+  .what-we-offer ul li:before,
+  .our-values ul li:before {
+    content: '•';
+    margin-right: 5px;
+    color: #333;
+  }
+  
+  .our-story, .what-we-offer, .our-values, .our-team, .join-us, .contact {
+    margin-top: 40px;
+  }
+  
+  .social-media {
+    margin-top: 20px;
+  }
+  
+  .social-media ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-media ul li {
+    margin: 0 10px;
+  }
+  
+  .social-media ul li a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .social-media ul li a:hover {
+    text-decoration: underline;
+  }
+  
